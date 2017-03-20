@@ -15,6 +15,9 @@ class MyFirstOperator(BaseOperator):
 
     def execute(self, context):
         log.info("Hello World!")
+
+        from IPython import embed; embed()
+
         log.info('operator_param: %s', self.operator_param)
 
 class MyFirstPlugin(AirflowPlugin):
