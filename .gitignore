@@ -1,0 +1,16 @@
+/airflow_home/airflow.db
+/airflow_home/logs/
+/airflow_home/airflow-webserver.pid
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# Editors
+/.idea/
